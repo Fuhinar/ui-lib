@@ -8,5 +8,5 @@ export function Button(props) {
 
   const className = `my-button my-button--${variant}`;
 
-  return <button className="my-button">{props.children}</button>;
+  return <button className={className}>{children}</button>;
 }

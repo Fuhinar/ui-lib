@@ -4,15 +4,16 @@
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    margin: 20px;
     }
 
-.my-button--primary {
+.my-button--bordered {
     background-color: navy;
     color: white;
 }
 
-.my-button--bordered {
+.my-button--primary{
     background-color: none;
     color: navy;
-    
+    border: navy 1px solid ;
 }
