@@ -3,10 +3,13 @@ import './index.css'
 export function Button(props) {
   const {
     variant = "primary", 
-    children
+    children,
+    size = "medium"
   } = props;
 
-  const className = `my-button my-button--${variant}`;
+  const className = `my-button my-button--${variant} my-button--${size}`;
 
   return <button className={className}>{children}</button>;
+  
 }
+
